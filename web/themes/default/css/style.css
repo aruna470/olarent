@@ -1,0 +1,255 @@
+body {
+    background-color: #EDECEC;
+}
+
+.page {
+	margin-top:70px;
+}
+
+.page-popup {
+	margin-top:10px;
+}
+
+.card {
+    position: relative;
+    background: none repeat scroll 0% 0% #FFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+	margin-top: 10px;
+    padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.card .card-header {
+    position: relative;
+	padding-bottom: 10px;
+}
+
+.card-header > h2 {
+	margin-top:0px;
+}
+
+.card-breadcrumb {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.container-popup {
+    padding:5px;
+}
+
+.card-popup {
+    position: relative;
+    background: none repeat scroll 0% 0% #FFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.breadcrumb {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+	border-radius: 0px;
+}
+
+.footer {
+	margin-top:5px;
+}
+
+a {
+	color:#7820aa;
+}
+a:hover, a:focus {
+    color: #4d176d;
+    text-decoration: underline;
+}
+
+.summary {
+    padding-bottom: 10px;
+	text-align: right;
+}
+
+label{
+    font-weight: normal;
+}
+div.required label:after {
+    content: " *";
+    color: red;
+}
+
+.form-inline > .form-group > input, select {
+	margin-bottom: 10px;
+}
+
+.inactive {
+	color:#AEA79F !important;
+}
+
+.inactive a {
+	color:#AEA79F !important;
+}
+
+.inv-amt {
+	text-align:right;
+}
+
+/* Dropdown menu */
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #761fa5;
+    color: #ffffff;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+/* Panels */
+.panel-default > .panel-heading {
+    background-color: #E0DEDE;
+}
+
+/* Login Page */
+.login-page-content {
+	left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+	width:100%;
+	height:auto;
+	top:15%;
+	position:absolute;
+	background:#ffffff;
+	padding:20px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    min-width: 300px;
+    border-radius: 10px;
+}
+
+.login-title {
+  margin: -20px -20px 21px;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #4d176d;
+  -webkit-box-shadow: 0 1px whitesmoke;
+  font-size: 20px;
+  font-weight: 200;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 0px 0px;
+}
+/* End */
+
+/* Table td > vertical-align: middle */
+.table tbody > tr > td {
+    vertical-align: middle;
+}
+
+/* Bootstrap - navbar-brand */
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+
+/* Krajee select2 */
+.select2-container--krajee .select2-selection--single {
+    height: 38px;
+}
+
+.select2-container--krajee .select2-selection--single .select2-selection__arrow {
+    height: 37px;
+}
+
+/* Gridview */
+.grid-view > table > thead {
+    background: #5a4d6d;
+}
+
+.grid-view > table > thead > tr > th > a{
+    color: #ffffff;
+}
+
+.grid-view > table > thead > tr > th {
+    border-bottom: 0 solid #dddddd;
+}
+
+.grid-view > table > thead > tr > th {
+    color:#ffffff;
+}
+
+.grid-view-container {
+    margin-top:15px;
+}
+
+/* Popups */
+.title-popup {
+    font-size:20px;
+    font-weight: bold;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+.navbar-inverse{
+    background-color: #4d176d;
+    border-color: #7820aa;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #9523cd;
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #761fa5;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #761fa5;
+    text-shadow: 1px 1px 1px #000;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #9523cd;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-info{
+    background-color: #761fa5;
+    border-color: #4d176d;
+    color: #ffffff;
+}
+.btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info {
+    background-color: #9523cd;
+    border-color: #4d176d;
+    color: #ffffff;
+}
+.main-logo{
+    height: 30px;
+}
+.navbar-brand{
+    padding: 10px;
+}
+.login-logo{
+    width: 90%;
+    max-height: 50px;
+    margin: 30px;
+    max-width: 200px;
+}
+
+/*
+@media all and (max-width: 1200px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+    .login-page-content {
+        left: 5%;
+        width: 90%;
+        height: auto;
+        top: 15%;
+        max-width: none;
+    }
+}*/

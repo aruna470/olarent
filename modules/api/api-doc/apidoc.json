@@ -1,0 +1,8 @@
+{
+  "name": "Olarent API Document",
+  "version": "1.1.0",
+  "description": "This document describes the Olarent API functionalities.",
+  "template": {
+    "withCompare": false
+  }
+}
